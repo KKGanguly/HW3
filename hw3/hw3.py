@@ -47,7 +47,7 @@ class experiment:
                     SOME(smart,    f"smart,{N}")]
 
         report(somes, 0.01)
-
+    
 # Example usage
 the = SETTINGS(ezr.__doc__)
 experiment = experiment()

@@ -7,13 +7,13 @@ xcols	: 3
 ycols	: 2
 
 dumb,20: 0.00 secs
-smart,20: 0.28 secs
+smart,20: 0.27 secs
 dumb,30: 0.00 secs
 smart,30: 0.27 secs
 dumb,40: 0.00 secs
-smart,40: 0.28 secs
+smart,40: 0.27 secs
 dumb,50: 0.00 secs
-smart,50: 0.25 secs
+smart,50: 0.27 secs
 #
  0,                  smart,20,  0.00,  0.00, *--------           |                   ,  0.00,  0.00,  0.00,  0.00,  0.25
  0,                  smart,30,  0.00,  0.00, *--                 |                   ,  0.00,  0.00,  0.00,  0.00,  0.10

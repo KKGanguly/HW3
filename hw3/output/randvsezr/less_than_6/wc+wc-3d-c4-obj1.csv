@@ -9,11 +9,11 @@ ycols	: 1
 dumb,20: 0.00 secs
 smart,20: 0.26 secs
 dumb,30: 0.00 secs
-smart,30: 0.25 secs
+smart,30: 0.26 secs
 dumb,40: 0.00 secs
-smart,40: 0.27 secs
+smart,40: 0.26 secs
 dumb,50: 0.00 secs
-smart,50: 0.25 secs
+smart,50: 0.27 secs
 #
  0,                  smart,20,  0.00,  0.00, *                   |                   ,  0.00,  0.00,  0.00,  0.00,  0.01
  0,                  smart,30,  0.00,  0.00, *                   |                   ,  0.00,  0.00,  0.00,  0.00,  0.01
