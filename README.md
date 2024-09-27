@@ -33,23 +33,23 @@ To run the code, **Python 3.13** is required. This project is built on [`ezr.py`
 ### Step 1: Clone the repository and navigate to the working directory
 ```bash
 cd hw
-
+```
 ### Step 2: Divide the dataset into small (< 6 attributes) and large datasets
 ```bash
 sudo make divide
-
+```
 ### Step 3: Generate bash scripts to run experiments for small and large datasets
 ```bash
 sudo make Exp_dir=greater_than_or_equals_6 Act=randvsezr act > scripts/randvsezrlarge.sh
 sudo make Exp_dir=less_than_6 Act=randvsezr act > scripts/randvsezrsmall.sh
-
+```
 ### Step 4: Make the scripts executable and run them
 ```bash
 chmod +x scripts/randvsezrlarge.sh
 chmod +x scripts/randvsezrsmall.sh
 bash scripts/randvsezrlarge.sh
 bash scripts/randvsezrsmall.sh
-
+```
 ### Step 5: Generate combined results for small and large datasets
 Navigate to the results directory and run the `rq.sh` script from the `ezr` project.
 
@@ -57,6 +57,7 @@ Example for large datasets:
 ```bash
 cd output/randvsezr/greater_than_or_equals_6
 bash /workspaces/HW3/ezr_24Aug14/etc/rq.sh
+```
 
 ## 📈 **Results**
 
