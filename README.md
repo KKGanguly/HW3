@@ -24,6 +24,7 @@ To run the code, **Python 3.13** is required. This project is built on [`ezr.py`
 
 1. **For Linux/macOS**:
    ```bash
+   sudo add-apt-repository ppa:deadsnakes/ppa
    sudo apt update
    sudo apt install python3.13
 2. For Windows: Download the installer from python.org and follow the setup instructions.
@@ -32,7 +33,7 @@ To run the code, **Python 3.13** is required. This project is built on [`ezr.py`
 
 ### Step 1: Clone the repository and navigate to the working directory
 ```bash
-cd hw
+cd hw3
 ```
 ### Step 2: Divide the dataset into small (< 6 attributes) and large datasets
 ```bash
@@ -51,7 +52,7 @@ bash scripts/randvsezrlarge.sh
 bash scripts/randvsezrsmall.sh
 ```
 ### Step 5: Generate combined results for small and large datasets
-Navigate to the results directory and run the `rq.sh` script from the `ezr` project.
+Navigate to the output directory for each of the datasets and run the `rq.sh` script from `ezr`.
 
 Example for large datasets:
 ```bash
@@ -67,9 +68,9 @@ bash /workspaces/HW3/ezr_24Aug14/etc/rq.sh
 In **small datasets**, random guessing (denoted as `dumb`) ranks at position 0 (best) in **80%** of cases. This is even higher than more advanced techniques like active learning, which ranks at 0 in **70%** of cases, proving the efficacy of random guessing for low-dimensional problems.
 
 ### Large Dataset Results (≥ 6 attributes)
-![Large Dataset Results](results_image/small.jpg)
+![Large Dataset Results](results_image/large.jpg)
 
-In **large datasets**, random guessing ranks at 0 in **31%** fewer cases than active learning. It performs similarly to the baseline method (`asIs`), which does nothing (returns the whole dataset).
+In **large datasets**, random guessing ranks at 0 in **31%** fewer cases than active learning. Compared to this, it performs closely to the baseline method (`asIs`), which does nothing (returns the whole dataset).
 
 ## 📝 **Conclusion**
 
@@ -82,9 +83,9 @@ These findings validate the original hypotheses: random guessing excels in low d
 ---
 
 ## 📁 **Project Structure**
-- `hw/`: Main working directory.
-- `hw/scripts/`: Contains generated bash scripts for running experiments.
-- `output/`: Contains results.
+- `hw3/`: Main working directory.
+- `hw3/scripts/`: Contains generated bash scripts for running experiments.
+- `hw3/output/`: Contains results.
 - `ezr_24Aug14/`: External dependency for experiment processing.
 
 ## 📜 **License**
