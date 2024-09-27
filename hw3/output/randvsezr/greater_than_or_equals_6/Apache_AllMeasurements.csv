@@ -1,0 +1,28 @@
+
+data/greater_than_or_equals_6/Apache_AllMeasurements.csv
+asIs	: 0.217
+div	: 0.667
+rows	: 192
+xcols	: 9
+ycols	: 1
+
+dumb.20: 0.00 secs
+smart.20: 1.38 secs
+dumb.30: 0.01 secs
+smart.30: 1.35 secs
+dumb.40: 0.01 secs
+smart.40: 1.35 secs
+dumb.50: 0.01 secs
+smart.50: 1.33 secs
+#
+ 0,             smart,20,  0.00,  0.00, *                   |                   ,  0.00,  0.00
+ 0,             smart,30,  0.00,  0.00, *                   |                   ,  0.00,  0.02
+ 0,             smart,40,  0.00,  0.00, *                   |                   ,  0.00,  0.02
+ 0,             smart,50,  0.00,  0.00, *                   |                   ,  0.00,  0.00
+#
+ 1,              dumb,20,  0.02,  0.02, *                   |                   ,  0.00,  0.03
+ 1,              dumb,40,  0.02,  0.02, *                   |                   ,  0.00,  0.05
+ 1,              dumb,50,  0.02,  0.03, *                   |                   ,  0.00,  0.05
+ 1,              dumb,30,  0.03,  0.02,  *                  |                   ,  0.00,  0.05
+#
+ 2,             asIs,192,  0.22,  0.38,   ---   *           |--------           ,  0.00,  1.00
